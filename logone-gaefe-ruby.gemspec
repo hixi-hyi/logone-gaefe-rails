@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "gaefe/request/logger/version"
+require "logone/gaefe/rails/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "gaefe-request-logger"
+  spec.name          = "logone-gaefe-rails"
   spec.version       = Logone::Gaefe::Rails::VERSION
   spec.authors       = ["Hiroyoshi Houchi"]
   spec.email         = ["git@hixi-hyi.com"]
